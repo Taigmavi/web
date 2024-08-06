@@ -1,0 +1,16 @@
+body {
+    background-color: #f7f7f7;
+}
+.uk-container {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.uk-animation-fade-out {
+    opacity: 1;
+    transition: opacity 0.9s ease-out;
+}
+.uk-animation-fade-out.uk-alert {
+    opacity: 0;
+}
